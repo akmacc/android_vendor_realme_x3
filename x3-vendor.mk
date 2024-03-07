@@ -248,6 +248,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/odm/firmware/awinic_haptic_gun_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_gun_params.bin \
     vendor/realme/x3/proprietary/odm/firmware/awinic_haptic_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_params.bin \
     vendor/realme/x3/proprietary/odm/firmware/fastchg/19696/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19696/oplus_vooc_fw.bin \
+    vendor/realme/x3/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/realme/x3/proprietary/odm/firmware/tp/19696/FW_HX_NF83112A_DSJM.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19696/FW_HX_NF83112A_DSJM.img \
     vendor/realme/x3/proprietary/odm/firmware/tp/19696/FW_HX_NF83112A_DSJM_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19696/FW_HX_NF83112A_DSJM_FAE.img \
     vendor/realme/x3/proprietary/odm/firmware/tp/19696/FW_HX_NF83112A_DSJM_TEST.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19696/FW_HX_NF83112A_DSJM_TEST.img \
