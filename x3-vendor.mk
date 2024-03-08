@@ -925,6 +925,27 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/firmware/a640_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.b02 \
     vendor/realme/x3/proprietary/vendor/firmware/a640_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.elf \
     vendor/realme/x3/proprietary/vendor/firmware/a640_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.mdt \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_breath_simulation_RTP_118_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_breath_simulation_RTP_118_166Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_breath_simulation_RTP_118_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_breath_simulation_RTP_118_170Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_breath_simulation_RTP_118_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_breath_simulation_RTP_118_174Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_charging_simulation_RTP_108_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_charging_simulation_RTP_108_166Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_charging_simulation_RTP_108_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_charging_simulation_RTP_108_170Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_charging_simulation_RTP_108_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_charging_simulation_RTP_108_174Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_clock_channel_RTP_43.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_clock_channel_RTP_43.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_clock_channel_RTP_43_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_clock_channel_RTP_43_166Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_clock_channel_RTP_43_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_clock_channel_RTP_43_170Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_clock_channel_RTP_43_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_clock_channel_RTP_43_174Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_clock_channel_RTP_43_234Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_clock_channel_RTP_43_234Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_cut_channel_RTP_42.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_cut_channel_RTP_42.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_cut_channel_RTP_42_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_cut_channel_RTP_42_166Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_cut_channel_RTP_42_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_cut_channel_RTP_42_170Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_cut_channel_RTP_42_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_cut_channel_RTP_42_174Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_cut_channel_RTP_42_234Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_cut_channel_RTP_42_234Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_desk_54_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_desk_54_166Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_desk_54_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_desk_54_170Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_desk_54_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_desk_54_174Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_desk_7_RTP_54.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_desk_7_RTP_54.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_desk_7_RTP_54_234Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_desk_7_RTP_54_234Hz.bin \
     vendor/realme/x3/proprietary/vendor/firmware/aw8697_fingerprint_effect1_RTP_110_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_fingerprint_effect1_RTP_110_166Hz.bin \
     vendor/realme/x3/proprietary/vendor/firmware/aw8697_fingerprint_effect1_RTP_110_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_fingerprint_effect1_RTP_110_170Hz.bin \
     vendor/realme/x3/proprietary/vendor/firmware/aw8697_fingerprint_effect1_RTP_110_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_fingerprint_effect1_RTP_110_174Hz.bin \
@@ -949,6 +970,69 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/firmware/aw8697_fingerprint_effect8_RTP_117_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_fingerprint_effect8_RTP_117_166Hz.bin \
     vendor/realme/x3/proprietary/vendor/firmware/aw8697_fingerprint_effect8_RTP_117_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_fingerprint_effect8_RTP_117_170Hz.bin \
     vendor/realme/x3/proprietary/vendor/firmware/aw8697_fingerprint_effect8_RTP_117_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_fingerprint_effect8_RTP_117_174Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_haptic_166.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_166.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_haptic_168.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_168.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_170.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_haptic_172.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_172.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_haptic_174.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_174.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_haptic_235.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_235.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_160Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_160Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_162Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_162Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_164Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_164Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_166Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_168Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_168Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_170Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_172Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_172Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_174Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_176Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_176Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_178Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_178Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_180Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_180Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_225Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_225Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_226Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_226Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_227Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_227Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_228Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_228Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_229Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_229Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_230Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_230Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_231Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_231Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_232Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_232Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_233Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_233Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_234Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_234Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_235Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_high_temp_high_humidity_channel_RTP_51_235Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_160Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_160Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_162Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_162Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_164Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_164Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_166Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_168Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_168Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_170Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_172Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_172Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_174Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_176Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_176Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_178Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_178Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_180Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_180Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_225Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_225Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_226Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_226Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_227Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_227Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_228Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_228Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_229Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_229Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_230Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_230Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_231Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_231Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_232Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_232Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_233Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_233Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_234Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_234Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_235Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_235Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_stepable_regulate_RTP_105.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_stepable_regulate_RTP_105.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_stepable_regulate_RTP_105_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_stepable_regulate_RTP_105_166Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_stepable_regulate_RTP_105_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_stepable_regulate_RTP_105_170Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_stepable_regulate_RTP_105_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_stepable_regulate_RTP_105_174Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_strength_level_bar_edge_RTP_107_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_strength_level_bar_edge_RTP_107_166Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_strength_level_bar_edge_RTP_107_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_strength_level_bar_edge_RTP_107_170Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_strength_level_bar_edge_RTP_107_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_strength_level_bar_edge_RTP_107_174Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_vibrator_remain_12_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_vibrator_remain_12_166Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_vibrator_remain_12_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_vibrator_remain_12_170Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_vibrator_remain_12_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_vibrator_remain_12_174Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_vibrator_remain_12_RTP_56.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_vibrator_remain_12_RTP_56.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_vibrator_remain_12_RTP_56_234Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_vibrator_remain_12_RTP_56_234Hz.bin \
     vendor/realme/x3/proprietary/vendor/firmware/fingerprint_success_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint_success_166Hz.bin \
     vendor/realme/x3/proprietary/vendor/firmware/fingerprint_success_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint_success_170Hz.bin \
     vendor/realme/x3/proprietary/vendor/firmware/fingerprint_success_174Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint_success_174Hz.bin \
