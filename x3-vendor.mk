@@ -11,6 +11,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service \
     vendor/realme/x3/proprietary/odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service \
     vendor/realme/x3/proprietary/odm/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service \
+    vendor/realme/x3/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
     vendor/realme/x3/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/realme/x3/proprietary/odm/bin/init.oplus.wifi.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.wifi.sh \
     vendor/realme/x3/proprietary/odm/bin/oplus_sensor_fb:$(TARGET_COPY_OUT_ODM)/bin/oplus_sensor_fb \
@@ -233,6 +234,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/realme/x3/proprietary/odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc \
     vendor/realme/x3/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc \
+    vendor/realme/x3/proprietary/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc \
     vendor/realme/x3/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/realme/x3/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/realme/x3/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
@@ -240,13 +242,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/odm/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.bin \
     vendor/realme/x3/proprietary/odm/etc/wifi/bin_version:$(TARGET_COPY_OUT_ODM)/etc/wifi/bin_version \
     vendor/realme/x3/proprietary/odm/etc/wifi/bin_version_realme:$(TARGET_COPY_OUT_ODM)/etc/wifi/bin_version_realme \
-    vendor/realme/x3/proprietary/odm/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic.bin \
-    vendor/realme/x3/proprietary/odm/firmware/aw8697_haptic_166.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_166.bin \
-    vendor/realme/x3/proprietary/odm/firmware/aw8697_haptic_168.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_168.bin \
-    vendor/realme/x3/proprietary/odm/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_170.bin \
-    vendor/realme/x3/proprietary/odm/firmware/aw8697_haptic_172.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_172.bin \
-    vendor/realme/x3/proprietary/odm/firmware/aw8697_haptic_174.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_174.bin \
-    vendor/realme/x3/proprietary/odm/firmware/aw8697_haptic_19081.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_19081.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_haptic_19081.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_19081.bin \
     vendor/realme/x3/proprietary/odm/firmware/awinic_haptic_gun_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_gun_params.bin \
     vendor/realme/x3/proprietary/odm/firmware/awinic_haptic_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_params.bin \
     vendor/realme/x3/proprietary/odm/firmware/fastchg/19696/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19696/oplus_vooc_fw.bin \
@@ -263,6 +259,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/odm/firmware/tp/19696/LIMIT_NT36672C_NF_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19696/LIMIT_NT36672C_NF_BOE.img \
     vendor/realme/x3/proprietary/odm/firmware/tp/19696/LIMIT_NT36672C_NF_JDI.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19696/LIMIT_NT36672C_NF_JDI.img \
     vendor/realme/x3/proprietary/odm/init.oplus.fingerprints.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.fingerprints.rc \
+    vendor/realme/x3/proprietary/odm/lib/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.biometrics.fingerprint@2.1.so \
+    vendor/realme/x3/proprietary/odm/lib/android.hardware.biometrics.fingerprint@2.2.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.biometrics.fingerprint@2.2.so \
+    vendor/realme/x3/proprietary/odm/lib/android.hardware.biometrics.fingerprint@2.3.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.biometrics.fingerprint@2.3.so \
     vendor/realme/x3/proprietary/odm/lib/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_distortion_correction.so \
     vendor/realme/x3/proprietary/odm/lib/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_hdr_denoise_api.so \
     vendor/realme/x3/proprietary/odm/lib/libarcsoft_hdrplus_hvx_stub.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_hdrplus_hvx_stub.so \
@@ -298,6 +297,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so \
     vendor/realme/x3/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so \
     vendor/realme/x3/proprietary/odm/lib/rfsa/adsp/libvdblurless_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdblurless_skel.so \
+    vendor/realme/x3/proprietary/odm/lib/sensors.hal.tof.so:$(TARGET_COPY_OUT_ODM)/lib/sensors.hal.tof.so \
     vendor/realme/x3/proprietary/odm/lib/soundfx/awinic.haptic.effect.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/awinic.haptic.effect.so \
     vendor/realme/x3/proprietary/odm/lib/soundfx/libhaptic_effect.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libhaptic_effect.so \
     vendor/realme/x3/proprietary/odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
@@ -410,6 +410,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
     vendor/realme/x3/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
     vendor/realme/x3/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
+    vendor/realme/x3/proprietary/odm/lib64/sensors.hal.tof.so:$(TARGET_COPY_OUT_ODM)/lib64/sensors.hal.tof.so \
     vendor/realme/x3/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/x3/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/realme/x3/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so \
@@ -417,6 +418,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cryptoeng@1.0.so \
     vendor/realme/x3/proprietary/odm/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so \
     vendor/realme/x3/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
+    vendor/realme/x3/proprietary/odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.oplusSensor@1.0.so \
     vendor/realme/x3/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/x3/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
     vendor/realme/x3/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
@@ -439,35 +441,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/odm/vendor/firmware/cryptoeng.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b06 \
     vendor/realme/x3/proprietary/odm/vendor/firmware/cryptoeng.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b07 \
     vendor/realme/x3/proprietary/odm/vendor/firmware/cryptoeng.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.mdt \
-    vendor/realme/x3/proprietary/odm/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b00 \
-    vendor/realme/x3/proprietary/odm/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b01 \
-    vendor/realme/x3/proprietary/odm/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b02 \
-    vendor/realme/x3/proprietary/odm/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b03 \
-    vendor/realme/x3/proprietary/odm/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b04 \
-    vendor/realme/x3/proprietary/odm/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b05 \
-    vendor/realme/x3/proprietary/odm/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b06 \
-    vendor/realme/x3/proprietary/odm/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b07 \
-    vendor/realme/x3/proprietary/odm/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.mdt \
-    vendor/realme/x3/proprietary/system/system/lib/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.camera.common@1.0.so \
-    vendor/realme/x3/proprietary/system/system/lib/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.camera.device@1.0.so \
-    vendor/realme/x3/proprietary/system/system/lib/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.camera.device@3.2.so \
-    vendor/realme/x3/proprietary/system/system/lib/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.camera.device@3.3.so \
-    vendor/realme/x3/proprietary/system/system/lib/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.camera.device@3.4.so \
-    vendor/realme/x3/proprietary/system/system/lib/android.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.camera.device@3.5.so \
-    vendor/realme/x3/proprietary/system/system/lib/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.camera.provider@2.4.so \
-    vendor/realme/x3/proprietary/system/system/lib/android.hardware.graphics.mapper@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.graphics.mapper@2.0.so \
-    vendor/realme/x3/proprietary/system/system/lib/android.hardware.graphics.mapper@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.graphics.mapper@3.0.so \
-    vendor/realme/x3/proprietary/system/system/lib/android.hardware.graphics.mapper@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.graphics.mapper@4.0.so \
-    vendor/realme/x3/proprietary/system/system/lib64/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.camera.common@1.0.so \
-    vendor/realme/x3/proprietary/system/system/lib64/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.camera.device@1.0.so \
-    vendor/realme/x3/proprietary/system/system/lib64/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.camera.device@3.2.so \
-    vendor/realme/x3/proprietary/system/system/lib64/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.camera.device@3.3.so \
-    vendor/realme/x3/proprietary/system/system/lib64/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.camera.device@3.4.so \
-    vendor/realme/x3/proprietary/system/system/lib64/android.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.camera.device@3.5.so \
-    vendor/realme/x3/proprietary/system/system/lib64/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.camera.provider@2.4.so \
-    vendor/realme/x3/proprietary/system/system/lib64/android.hardware.graphics.mapper@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.graphics.mapper@2.0.so \
-    vendor/realme/x3/proprietary/system/system/lib64/android.hardware.graphics.mapper@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.graphics.mapper@3.0.so \
-    vendor/realme/x3/proprietary/system/system/lib64/android.hardware.graphics.mapper@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.graphics.mapper@4.0.so \
+    vendor/realme/x3/proprietary/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b00 \
+    vendor/realme/x3/proprietary/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b01 \
+    vendor/realme/x3/proprietary/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b02 \
+    vendor/realme/x3/proprietary/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b03 \
+    vendor/realme/x3/proprietary/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b04 \
+    vendor/realme/x3/proprietary/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b05 \
+    vendor/realme/x3/proprietary/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b06 \
+    vendor/realme/x3/proprietary/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b07 \
+    vendor/realme/x3/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
     vendor/realme/x3/proprietary/system_ext/bin/aptxalsOverlayCreateProject.sh:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aptxalsOverlayCreateProject.sh \
     vendor/realme/x3/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/realme/x3/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
@@ -506,9 +488,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/system_ext/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.1.so \
     vendor/realme/x3/proprietary/system_ext/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.2.so \
     vendor/realme/x3/proprietary/system_ext/lib64/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.3.so \
-    vendor/realme/x3/proprietary/system_ext/lib64/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.camera.slogan@1.0.so \
-    vendor/realme/x3/proprietary/system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.cameraMDM@1.0.so \
-    vendor/realme/x3/proprietary/system_ext/lib64/vendor.oplus.hardware.cameraMDM@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.cameraMDM@2.0.so \
     vendor/realme/x3/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/realme/x3/proprietary/system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.audiohalext@1.0.so \
     vendor/realme/x3/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
@@ -526,7 +505,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/bin/hdcp2p2prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp2p2prov \
     vendor/realme/x3/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/realme/x3/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
-    vendor/realme/x3/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
     vendor/realme/x3/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/realme/x3/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-qti \
     vendor/realme/x3/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.4-service \
@@ -645,6 +623,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/etc/camera/tonemap/tonemap_lut_7:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_7 \
     vendor/realme/x3/proprietary/vendor/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_8 \
     vendor/realme/x3/proprietary/vendor/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_9 \
+    vendor/realme/x3/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/realme/x3/proprietary/vendor/etc/cne/profileSlm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileSlm.xml \
     vendor/realme/x3/proprietary/vendor/etc/cne/slm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/slm.conf \
     vendor/realme/x3/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -689,7 +668,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/etc/hostapd/hostapd.deny:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.deny \
     vendor/realme/x3/proprietary/vendor/etc/hostapd/hostapd_default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd_default.conf \
     vendor/realme/x3/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/realme/x3/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
     vendor/realme/x3/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/realme/x3/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/realme/x3/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.4-service.rc \
@@ -721,6 +699,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/realme/x3/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/realme/x3/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
+    vendor/realme/x3/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/realme/x3/proprietary/vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.allocator-service.rc \
     vendor/realme/x3/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/realme/x3/proprietary/vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.factory@1.0-service.rc \
@@ -836,6 +815,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/etc/sensors/proto/qti_gravity.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/qti_gravity.proto \
     vendor/realme/x3/proprietary/vendor/etc/sensors/proto/sns_accel.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_accel.proto \
     vendor/realme/x3/proprietary/vendor/etc/sensors/proto/sns_accel_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_accel_cal.proto \
+    vendor/realme/x3/proprietary/vendor/etc/sensors/proto/sns_activity_recognition.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_activity_recognition.proto \
     vendor/realme/x3/proprietary/vendor/etc/sensors/proto/sns_ambient_light.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ambient_light.proto \
     vendor/realme/x3/proprietary/vendor/etc/sensors/proto/sns_ambient_temperature.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ambient_temperature.proto \
     vendor/realme/x3/proprietary/vendor/etc/sensors/proto/sns_amd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_amd.proto \
@@ -1064,6 +1044,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/firmware/ipa_uc.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.elf \
     vendor/realme/x3/proprietary/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
     vendor/realme/x3/proprietary/vendor/firmware/wigig/wigig.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wigig/wigig.ini \
+    vendor/realme/x3/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
     vendor/realme/x3/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/realme/x3/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/realme/x3/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
@@ -1072,7 +1053,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/realme/x3/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/realme/x3/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-    vendor/realme/x3/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so \
     vendor/realme/x3/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
     vendor/realme/x3/proprietary/vendor/lib/hw/audio.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msmnile.so \
     vendor/realme/x3/proprietary/vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so \
@@ -1255,7 +1235,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/lib/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.audiohalext@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.1.so \
-    vendor/realme/x3/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dsp@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
@@ -1265,7 +1244,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/realme/x3/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.2.so \
     vendor/realme/x3/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.3.so \
-    vendor/realme/x3/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-external.so \
     vendor/realme/x3/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-legacy.so \
     vendor/realme/x3/proprietary/vendor/lib64/android.hardware.graphics.composer@2.1-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.1-resources.so \
     vendor/realme/x3/proprietary/vendor/lib64/android.hardware.graphics.composer@2.2-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.2-resources.so \
@@ -1369,7 +1347,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/realme/x3/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/realme/x3/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-    vendor/realme/x3/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl.so \
     vendor/realme/x3/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/realme/x3/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-qti.so \
     vendor/realme/x3/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@3.0-impl-qti-display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@3.0-impl-qti-display.so \
@@ -1548,6 +1525,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
     vendor/realme/x3/proprietary/vendor/lib64/libgpu_tonemapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_tonemapper.so \
     vendor/realme/x3/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
+    vendor/realme/x3/proprietary/vendor/lib64/libgralloc.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc.qti.so \
     vendor/realme/x3/proprietary/vendor/lib64/libgralloccore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloccore.so \
     vendor/realme/x3/proprietary/vendor/lib64/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrallocutils.so \
     vendor/realme/x3/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
@@ -1622,6 +1600,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/lib64/libqcodec2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2.so \
     vendor/realme/x3/proprietary/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
     vendor/realme/x3/proprietary/vendor/lib64/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildatactl.so \
+    vendor/realme/x3/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
     vendor/realme/x3/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
     vendor/realme/x3/proprietary/vendor/lib64/libqdma_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdma_file_agent.so \
     vendor/realme/x3/proprietary/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so \
@@ -1677,6 +1656,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
     vendor/realme/x3/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     vendor/realme/x3/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
+    vendor/realme/x3/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/realme/x3/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/realme/x3/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/realme/x3/proprietary/vendor/lib64/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsi.so \
@@ -1776,7 +1756,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so \
     vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0.so \
-    vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cvp@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
@@ -1802,7 +1781,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.dsp@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.factory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.factory@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.factory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.factory@1.1.so \
-    vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/realme/x3/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
@@ -1903,4 +1881,5 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.0-service \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.servicetracker@1.2-service \
-    manifest_android.hardware.drm@1.3-service.widevine
+    manifest_android.hardware.drm@1.3-service.widevine \
+    manifest_oplusSensor
