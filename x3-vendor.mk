@@ -1016,6 +1016,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_233Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_233Hz.bin \
     vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_234Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_234Hz.bin \
     vendor/realme/x3/proprietary/vendor/firmware/aw8697_old_steady_test_RTP_52_235Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_old_steady_test_RTP_52_235Hz.bin \
+    vendor/realme/x3/proprietary/vendor/firmware/aw8697_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp.bin \
     vendor/realme/x3/proprietary/vendor/firmware/aw8697_stepable_regulate_RTP_105.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_stepable_regulate_RTP_105.bin \
     vendor/realme/x3/proprietary/vendor/firmware/aw8697_stepable_regulate_RTP_105_166Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_stepable_regulate_RTP_105_166Hz.bin \
     vendor/realme/x3/proprietary/vendor/firmware/aw8697_stepable_regulate_RTP_105_170Hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_stepable_regulate_RTP_105_170Hz.bin \
